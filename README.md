@@ -30,9 +30,6 @@
 *   **Forms:** Formik & Yup
 *   **Styling:** CSS3, Lucide React Icons
 
-## 📸 Screenshots
-
-*(You can add screenshots here later)*
 
 ## 🏃‍♂️ How to Run
 
