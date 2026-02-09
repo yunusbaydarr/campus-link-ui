@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #d36a72, #edab8b, #f3cc8a);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.cardWrapper {
+  display: flex;
+  position: relative;
+  width: 900px;
+  height: 750px;
+  align-items: center;
+}
+
+.leftPanel {
+  flex: 1;
+  background-color: #003366;
+  border-radius: 40px;
+  padding: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.clickEmojiText {
+  font-size: 36px;
+}
+
+.arrowIcon {
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+.emojiBadge {
+  position: absolute;
+  bottom: 150px;
+  left: 25%;
+  font-size: 120px;
+  cursor: pointer;
+}
+
+.rightPanel {
+  flex: 1.9;
+  background-color: #f3fcae;
+  border-radius: 40px;
+  margin-left: -50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 4px solid #003366;
+  z-index: 3;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formTitle {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photoUploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.photoCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px dashed #003366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+  overflow: hidden;
+}
+
+.previewImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photoLabel {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.inputGroup {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputGroup input {
+  padding: 12px 5px;
+  border: none;
+  border-bottom: 2px solid #003366;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.alreadyText {
+  margin: 25px 0 15px;
+}
+
+.submitBtn {
+  background: black;
+  color: white;
+  padding: 12px 60px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
